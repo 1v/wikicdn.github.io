@@ -1,4 +1,4 @@
 [submodule "accounting"]
-      path = accounting
-      url = git://github.com/josscrowcroft/accounting.js.git
+	path = accounting
+	url = https://github.com/josscrowcroft/accounting.js.git
 
