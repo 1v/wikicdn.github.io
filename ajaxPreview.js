@@ -39,10 +39,10 @@ $(function(){
     }
     btn.val(name).css('height','22px').css('padding','0 1px').appendTo(previewToolbar)
   }
-  if( akey && window.tooltipAccessKeyPrefix ){ //reassign acces key
+  if( akey && mw.util.tooltipAccessKeyPrefix ){ //reassign acces key
     if (btnOld.attr('accesskey') == akey)
-      btnOld.removeAttr('accesskey').attr('title', btnOld.attr('title').replace(tooltipAccessKeyRegexp, '') )
-  btn.attr('accesskey', akey).attr('title', btn.attr('title') + ' ['+tooltipAccessKeyPrefix+akey+']' )
+      btnOld.removeAttr('accesskey').attr('title', btnOld.attr('title').replace(mw.util.tooltipAccessKeyRegexp, '') )
+  btn.attr('accesskey', akey).attr('title', btn.attr('title') + ' ['+mw.util.tooltipAccessKeyPrefix+akey+']' )
   }
  }
 })
