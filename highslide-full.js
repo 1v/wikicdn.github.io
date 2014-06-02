@@ -6,7 +6,7 @@
  * Support: www.highslide.com/support
  * License: www.highslide.com/#license
  */
-if (!hs) { var window.hs = {
+if (!hs) { var hs = {
 // Language strings
 lang : {
 	cssDirection: 'ltr',
@@ -3318,3 +3318,4 @@ hs.addEventListener(document, 'ready', hs.setClickEvents);
 hs.addEventListener(window, 'load', hs.preloadImages);
 hs.addEventListener(window, 'load', hs.preloadAjax);
 }
+window.hs = hs;
