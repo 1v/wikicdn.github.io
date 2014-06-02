@@ -6,7 +6,7 @@
  * Support: www.highslide.com/support
  * License: www.highslide.com/#license
  */
-if (!hs) { var hs = {
+if (!hs) { var window.hs = {
 // Language strings
 lang : {
 	cssDirection: 'ltr',
